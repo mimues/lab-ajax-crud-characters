@@ -29,9 +29,11 @@
         <button id="fetch-one">Fetch one</button>
       </div>
       <div class="operation delete">
-        <label for="character-id-delete">Delete by ID: </label>
-        <input type="text" name="character-id-delete">
-        <button id="delete-one">Delete one</button>
+        <form id='delete-form'>
+          <label for="character-id-delete">Delete by ID: </label>
+          <input type="text" name="character-id-delete">
+          <button id="delete-one">Delete one</button>
+        </form>
       </div>
 
     </section>
@@ -56,7 +58,7 @@
           <label for="cartoon">Is a Cartoon: </label>
           <input name="cartoon" type="checkbox">
         </div>
-        <button id="send-data">Create</button>
+        <button id="send-data-create">Create</button>
       </form>
     </section>
     <section class="form-container">
@@ -82,7 +84,7 @@
           <label for="cartoon">Is a Cartoon: </label>
           <input name="cartoon" type="checkbox">
         </div>
-        <button id="send-data">Update</button>
+        <button id="send-data-edit">Update</button>
       </form>
     </section>
   </section>
